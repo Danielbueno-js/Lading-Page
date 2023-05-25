@@ -36,3 +36,140 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #add8e6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 24px;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.subtitle {
+  color: #888;
+  margin: 0;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-section {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.right-section {
+  flex: 1;
+  padding: 20px;
+  background-color: #4fbcb1;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.description {
+  margin-top: 20px;
+}
+
+.form {
+  max-width: 100%;
+  align-items: left;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #4fbcb1;
+  box-sizing: border-box;
+}
+
+.form-group .terms {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.form-group .terms label {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+
+.form-group .terms input {
+  margin-right: 5px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  transform: scale(1.1);
+}
+
+.form-box {
+  padding: 20px;
+  background-color: #81bfb9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.terms input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.terms label {
+  font-size: 14px;
+  color: #555;
+}
+
+.terms-container {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.terms-container label {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
